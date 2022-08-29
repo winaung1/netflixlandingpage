@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-white min-h-screen p-10">
+   <nav class="flex justify-between items-center h-10 ">
+    <div class="logo">
+        <img class="h-20 w-40" src="/images/Netflix-Logo.wine.png" alt="">
+    </div>
+    <div class="btn">
+        <button class="bg-[#e50914] px-3 rounded py-1">Sign In</button>
+    </div>
+   </nav>
+   <main class="h-[780px] w-full flex items-center justify-center text-center">
+    <div class="space-y-3">
+        <h1 class="text-4xl font-bold w-96 mx-auto lg:text-6xl lg:w-full">Unlimited movies, TV shows, and more.</h1>
+        <h2 class="text-xl pb-5">Watch anywhere. Cancel anytime.</h2>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="email-btn md:flex items-center justify-center pb-3">
+            <input class="input px-2 py-3 w-[380px] rounded" type="text" placeholder="Email address">
+            <div class="flex justify-center pt-5 md:pt-0">
+                <button class="rounded cta-btn bg-[#e50914] flex py-3 px-5 items-center">
+                    <p> TRY 30 DAYS FREE</p>  
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                      </svg>
+                </button>
+            </div>
+        </div>
+        <p>Only new members are eligible for this offer.</p>
+    </div>
+   </main>
+</body>
+</html>
